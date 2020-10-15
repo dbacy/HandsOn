@@ -9,7 +9,7 @@ namespace HandsOn
         static void Main(string[] args)
         {
              int sizeOfGrid;
-            sizeOfGrid = Utils.GetNumber("Enter number: ");
+            sizeOfGrid = Utils.GetNumber("Enter number between 2 and 20: ");
             for (int header = 0; header<= sizeOfGrid; header++)
             {
                 if (header == 0)
@@ -31,15 +31,13 @@ namespace HandsOn
                 }
                 Console.Write("\n");
 
-            } 
+            }
+       
 
 
-           
-            
-            
-            
-            
-            
+
+
+
             /*int j = Utils.GetNumber("Enter A Number: ");
             for (int i = 0; i <= 300; i++)
             {
@@ -47,14 +45,14 @@ namespace HandsOn
                 Console.ReadLine();
             } */
 
-           
-            
-            
-            
-            
-            
-            
-            
+
+
+
+
+
+
+
+
             /*int j, n;
 
             n = Utils.GetNumber("Enter Number: ");
